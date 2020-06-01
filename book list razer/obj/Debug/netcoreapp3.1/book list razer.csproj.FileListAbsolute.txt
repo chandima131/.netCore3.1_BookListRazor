@@ -407,3 +407,4 @@ H:\.net\book list razer\book list razer\obj\Debug\netcoreapp3.1\book list razer.
 H:\.net\book list razer\book list razer\obj\Debug\netcoreapp3.1\book list razer.MvcApplicationPartsAssemblyInfo.cache
 H:\.net\book list razer\book list razer\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\index.cshtml.g.cs
 H:\.net\book list razer\book list razer\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Create.cshtml.g.cs
+H:\.net\book list razer\book list razer\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Edit.cshtml.g.cs

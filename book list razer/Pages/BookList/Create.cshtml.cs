@@ -16,7 +16,7 @@ namespace book_list_razer.Pages.BookList
         {
             _db = db;
         }
-        [BindProperty]
+        [BindProperty] // book object eka kelinma gnnawa kranne
         public Book Book { get; set; }
         public void OnGet()
         {
@@ -27,8 +27,8 @@ namespace book_list_razer.Pages.BookList
         {
             if (ModelState.IsValid)
             {
-                await _db.Book.AddAsync(Book);
-                await _db.SaveChangesAsync(); // changes are pushed to db
+                await _db.Book.AddAsync(Book); // add a book to db 
+                await _db.SaveChangesAsync(); //then  changes are pushed to db
                 return RedirectToPage("Index");
             }
             else
